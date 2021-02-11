@@ -1,0 +1,24 @@
+{
+  "name": "arduino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sketch.js",
+  "dependencies": {
+    "brightness": "^3.0.0",
+    "johnny-five": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivamJoker/Arduino-JS-Robot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivamJoker/Arduino-JS-Robot/issues"
+  },
+  "homepage": "https://github.com/ShivamJoker/Arduino-JS-Robot#readme"
+}
