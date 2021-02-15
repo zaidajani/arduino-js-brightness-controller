@@ -13,6 +13,18 @@ Control brightness of your computer using Arduino and some potentiometers.
 * Potentiometers
 * breadboard
 
+## First: Using Firmata Client Libraries with JS
+
+* Go to <a href="https://create.arduino.cc">Arduino Editor</a> and select Web Editor from the options.
+* Download the Plugin from here and once it is completed, open Arduino App on PC.
+* The Plugin icon should appear at Taskbar. Click on it and Go to Arduino Create, or go back to <a href="https://create.arduino.cc">Web Editor</a>.
+* Connect your Arduino Uno using USB to PC.
+* Create a New Sketch from Web Editor.
+* Go to Libraries and search for Firmata.
+* Scroll down the > Examples, find StandardFirmataPlus and click on it.
+* Click on Upload.
+* The Arduino would start blinking. You will get the message Success: Done uploading StandardFirmataPlus.
+
 And make a structure like the diagram above.
 
 ## Setup
@@ -32,7 +44,5 @@ $ npm install
 
 $ node sketch.js
 ```
-
-## Note: Flash your arduino with firmata by going on to <a href="https://create.arduino.cc/">https://create.arduino.cc/</a> search for firmata, install it, and install the required driver by clicking learn more.
 
 ## Enjoy your powerfull application
